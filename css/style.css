@@ -1,0 +1,815 @@
+body{
+
+
+    overflow-x: hidden;
+    margin: auto;
+}
+
+
+.heading-section{
+
+ height: 100vh;
+ background-image: url('../images/background\ \(1\).webp');
+ background-position: center center;
+ position: relative;
+
+}
+
+
+
+
+.header-title{
+
+ position: absolute;
+top:35%;
+width: 30%;
+left: 5%;
+letter-spacing: 2px;
+}
+.header-title h2,h4,h1{
+    font-family: cursive;
+}
+.header-title button{
+
+width: 45%;
+background-color: #E7B726;
+
+}
+
+
+.head-image1{
+    position: absolute; 
+
+    width: 20%;
+    right: 50px;
+    top: 50px;
+
+
+}
+.head-image2{
+    position: absolute;
+    width: 30%;
+    right: 174px;
+    top: 187px;
+    z-index: 3;
+
+    }
+
+
+ .head-image3{
+    position: absolute; 
+
+        width: 20%;
+        right: 435px;
+        top: 352px;
+        z-index: 4;
+        }
+
+.Trusting{
+
+background-image: url('../images/Trusting.png');
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+
+.agent{
+ 
+    position: relative;
+
+}
+
+.agent::after{
+
+    content: '';
+position: absolute;
+top:0px;
+left: -10px;
+    width: 1px;
+    height: 100% ;
+  background-color:#ffff;
+}
+.reward::before{
+
+    content: '';
+    position: absolute;
+    left: 0px;
+  bottom: 0px;
+        width: 100%;
+        height: 1px ;
+      background-color:#fff;
+
+}
+.main-Offers{
+height: 110vh;
+background-image: url('../images/offers.webp');
+background-position: center center;
+position: relative;
+padding-bottom: 5px;
+
+}
+
+.offer{
+
+    position: absolute;
+     width: 90%;
+     height: 80%;
+  left:5% ;
+      
+}
+
+.options{
+    background-color: #042F89;
+}
+.options ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+
+}
+.options ul li{
+    width: 100%;
+    font-size: 1rem;
+    color:white;
+    font-weight: 500;
+    padding: 1px;
+    border-radius: 0px !important;
+
+}
+.options ul li:hover{
+
+
+    cursor: pointer;
+}
+
+
+.offer-body{
+ padding: 40px !important;
+
+}
+
+.offer-body h1{
+    color:#071669;
+}
+.offer-body h6{
+    line-height: 25px;
+}
+.offer-body ul{
+    list-style: none;
+}
+.offer-body ul li{
+    position: relative;
+    padding: 5px;
+}
+.offer-body ul li::before{
+    position: absolute;
+ content:'';
+ width: 10px;
+ height: 10px;
+ background-color: orange;
+  top:13px;
+  left: -15px;
+  border-radius: 50%;
+}
+.tab-content{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, .8);
+
+}
+.Popular {
+
+    /* height: 400vh; */
+    /* padding-bottom: 100px !important; */
+}
+.Signature{
+    background-image: url('../images/background\ \(3\).webp');
+    background-position: center  center;
+    padding-right: 5px;
+    overflow-x: hidden;
+    
+}
+
+
+.team-section{
+
+     width: 85% ;
+      margin: auto;
+
+}
+.member{
+
+    position: relative;
+}
+.team-overlay{
+
+
+    position: absolute;
+
+    background: linear-gradient(95deg, rgba(7, 22, 105, 0.8) , rgba(0, 77, 178, 0.8));
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+height: 100%;
+  transition:transform 1s ;
+  outline-style: solid;
+  outline-color: rgba(0, 77, 178, 0.89);
+  opacity: 0;
+  outline-width: 14px;
+  border: 1px solid silver;
+  padding-top: 15px;
+  /* backface-visibility: hidden; */
+
+}
+.member:hover .team-overlay{
+    transform: rotateY(360deg);
+   opacity: 1;
+
+}
+
+
+.team-overlay button{
+    background-color: #E7B726;
+    width: 50%;
+}
+.btn-color{
+
+    background-color: #E7B726;
+
+}
+
+.Travellers
+{
+position: relative;
+background-image: url('../images/back_1.webp');
+background-position: center center;
+}
+.Travellers-ovlay{
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left:0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, .4);
+
+
+}
+
+
+.travel-img{
+    position: absolute !important;
+    border-radius: 50%;
+    top:-22%;
+    left:50%;
+          transform:translate(-50%) ;
+          z-index: 999 !important;
+          border: 5PX SOLID white;
+          
+}
+
+.carousel-indicators {
+
+bottom: 150px !important;
+}
+
+.carousel-control-next,.carousel-control-prev{
+
+    top:250px !important;
+}
+.dl, ol, ul {
+    margin-bottom:-12rem;
+
+}
+.carousel-indicators li{
+ width:7px;
+ height: 7px;
+ border-radius: 50%;
+ background-color:transparent;
+ border: 2px solid #0696f9;
+
+}
+.Travellers .container{
+
+    height: 85% !important;
+}
+
+.contact-us{
+    height: 65vh;
+background-image:url('../images/contact.webp');
+background-position: center center;
+color: #fff;
+font-size: 20px;
+font-family: 'Poppins', 'sans-serif';
+}
+
+.contact-us ul li{
+    margin: 3px;
+    padding: 5px;
+
+}
+.contact-us ul{
+list-style: none;
+
+
+}
+
+.contact-us i{
+  
+ background-color: white !important;
+}
+.Sign-Up{
+    background-image: url('../images/sign-up.webp');
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.Sign-Up h6{
+    padding: 10px;
+}
+
+.Sign-Up button{
+
+    background-color: #E7B726;
+    color :#fff;
+
+}
+.Sign-Up textarea{
+
+    border-radius: 20px !important;
+}
+.Sign-Up input,textarea{
+    box-shadow: 0px 6px 10px #a5a2a2 !important;
+}
+.footer{
+background-image: url('../images/background-bg.webp');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    padding: 5px;
+}
+
+.head-color{
+    color:#152A79 !important;
+}
+/* max  width 600px */
+
+
+
+
+
+
+
+
+@media all and (max-width:600px)
+{
+
+    html {
+        font-size: 13px;
+      }
+  body{
+      overflow-x: hidden;
+  }
+
+.header-title{
+    width: 100%;
+    position: absolute;
+    top: 10rem;
+    left:-2rem;
+    text-align: center;
+}
+.header-title h1{
+ font-size: 20px;
+}
+
+.header-title button{
+    width: 20%;
+    padding:5px !important
+}
+.head-image3{
+    width: 24%;
+    right: 230px;
+    top: 39rem;
+}
+.head-image1{
+
+    position: absolute;
+    width: 25%;
+    right: 1rem;
+    top: 25rem;
+}
+
+.header-title h2{
+    font-size: 20px;
+}
+.head-image2{
+
+    right: 7rem;
+    top: 33rem;
+}
+.header-title button{
+    width: 25%;
+}
+
+.trust-par{
+    font-size: 17px;
+}
+.reward,.agent p{
+    font-size: 15px;
+}
+.upper-trust{
+    text-align: center;
+    height: 300vh !important;
+    margin-bottom: 0px;
+}
+.reward::after{
+ display:none ;
+}
+.reward::before{
+   margin-bottom:11px ;
+   }
+
+
+.last {
+    margin-top: 54px;
+}
+.last::after{
+    width: 100%;
+    height: 1px;
+}
+.main-Offers>p{
+ padding: 60px;
+    
+
+}
+.options ul li{
+    padding: 5px;
+    margin: 5px;
+}
+.main-Offers{
+
+    height: 250vh;
+}
+#pills-tabContent{
+    height: 100vh;
+
+  
+}
+
+.offer-body ul,dl, ol, ul{
+    margin-bottom:3rem;
+}
+.Popular{
+    /* height: 616vh; */
+}
+.Popular .col-md,.col-md-12,.barbados,.card{
+
+    padding-bottom: 7px;
+}
+.card,.member{
+    margin-bottom: 5px;
+    
+}
+
+.Holiday_Offers .col-md{
+text-align: center;
+    margin-bottom: 5px;
+}
+
+.carousel-indicators {
+    bottom: -74px !important;
+}
+.carousel-item{
+
+    padding: 2rem !important;
+}
+.Resorts .col-md{
+
+    margin-bottom: 40px;
+}
+.Signature p{
+    font-size: 20px;
+}
+
+}
+
+ @media all and (min-width:601px) and (max-width:768px)
+ {
+
+    html {
+        font-size: 13px;
+      }
+  body{
+      overflow-x: hidden;
+  }
+
+
+  .header-title{
+    width: 70%;
+    position: absolute;
+    top: 13rem;
+}
+.head-image3{
+    width: 19%;
+    right: 196px;
+    top: 33rem;
+}
+.head-image1{
+
+    position: absolute;
+    width: 19%;
+    right: 2rem;
+    top: 22rem;
+
+}
+.head-image2{
+
+    right: 5rem;
+    top: 30rem;
+    width: 22%;
+
+}
+.Trusting p{
+    font-size: 15px;
+}
+.upper-trust{
+    text-align: center;
+    height: 300vh !important;
+    margin-bottom: 0px;
+}
+.reward::after{
+ display:none ;
+}
+
+.reward::before{
+    margin-bottom: 18px;
+   width: 100%;
+
+   }
+
+
+.last {
+    margin-top: 54px;
+}
+.last::after{
+    width: 100%;
+    height: 1px;
+}
+.main-Offers>p{
+ padding: 50px;
+ font-size: 20px;
+ font-family: 'Poppins', 'sans-serif';
+    
+
+}
+.options ul li{
+    padding: 5px;
+    margin: 5px;
+}
+.options ul li a {
+    font-family: cursive;
+    font-size: 17px;
+    color: white;
+}
+.offer-body ul li,h6{
+
+    font-size: 17px;
+}
+.main-Offers{
+
+    height: 250vh;
+}
+#pills-tabContent{
+    height: 100vh;
+
+  
+}
+
+.offer-body ul,dl, ol, ul{
+    margin-bottom:3rem;
+}
+.Popular{
+    /* height: 700vh; */
+}
+.Popular .col-md,.col-md-12,.barbados,.card{
+
+    padding-bottom: 5px;
+}
+.card,.member{
+    margin-bottom: 5px;
+    
+}
+
+.Holiday_Offers .col-md{
+text-align: center;
+    margin-bottom: 5px;
+}
+
+.carousel-indicators {
+    bottom: -74px !important;
+}
+.carousel-item{
+
+    padding: 2rem !important;
+}
+.Resorts,.footer  {
+    text-align: center;
+}
+
+.Signature h1{
+ text-align: center;
+
+}
+.Signature p{
+    font-size: 20px;
+    text-align: center;
+}
+.Journeys{
+ 
+        width: 100%;
+        margin-right: 0px !important;
+    
+}
+
+.member p,.team-overlay p{
+
+    font-size: 17px;
+}
+.Contac{
+    padding-left: 45px;
+}
+.Sign-Up .form-control{
+    padding: 20px;
+}
+
+.Resorts .col-md{
+    margin-bottom: 50px;
+}
+
+
+
+}
+@media all and (min-width:769px) and (max-width:992px)  
+{
+   
+   
+       html {
+           font-size: 13px;
+         }
+     body{
+         overflow-x: hidden;
+     }
+   
+   
+     .header-title{
+       width: 100%;
+       position: absolute;
+       top: 13rem;
+   }
+   .header-title h4,h1,h2{
+    font-weight: 400;
+    font-family: cursive;
+
+   }
+   .header-title button{
+margin-top: 20px;
+    width: 18%;
+   }
+   .head-image3{
+       width: 14%;
+      right: 251px;
+      top: 43rem;
+   }
+   .head-image1{
+   
+   
+       position: absolute;
+       width: 18%;
+       right: 5rem;
+       top: 24rem;}
+   .head-image2{
+    width: 20%;
+       right: 11rem;
+       top: 33rem;
+   }
+   .Trusting p{
+       font-size: 20px;
+   }
+   .Trusting {
+    font-size: 20px;
+    font-weight: 400;
+}
+.Trusting .col-md-4 p{
+    font-size: 15px;
+}
+.Trusting div{
+
+    text-align: center;
+}
+
+.reward::after{
+    width:1px ;
+    height: 100%;
+   }
+
+
+.main-Offers>p{
+    padding: 45px;
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+       
+   }
+
+   .main-Offers{
+       padding-top:30px;
+   }
+
+   .Popular{
+    height: auto;
+}
+
+.Signature .col-lg-4 p{
+font-size: 20px;
+}
+.team-member .member{
+
+padding-bottom: 15px;
+
+
+}
+.Travellers dl, ol, ul {
+    margin-bottom: -6rem;
+}
+.Contact{
+    padding: 20px;
+}
+
+
+
+}
+@media all and (min-width:992px) and (max-width:1200px) 
+{
+body{
+    overflow-x: hidden;
+}
+    .head-image1 {
+        position: absolute;
+        width: 18%;
+        right: 50px;
+        top: 301px;
+    }
+
+    .head-image2 {
+        position: absolute;
+        width: 24%;
+        right: 174px;
+        top: 369px;
+        z-index: 3;
+    }
+    .head-image3 {
+        position: absolute;
+        width: 18%;
+        right: 348px;
+        top: 474px;
+        z-index: 4;
+    }
+    .header-title {
+        position: absolute;
+        top: 23%;
+        width: 72%;
+        left: 5%;
+        letter-spacing: 2px;
+    }
+    .header-title button {
+        width: 22%;
+        background-color: #E7B726;
+    }
+    .Popular {
+        height: 112vh;
+    }
+.agent::after {
+    width: 1px;
+    height: 100%
+}
+
+}
+.offer-item{
+    overflow: hidden;
+
+}
+.offer-item img {
+    transition: transform 2s ease-in-out;
+}
+
+.offer-item:hover img {
+    transform:scale(1.5);
+}
